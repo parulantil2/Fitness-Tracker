@@ -13,14 +13,14 @@ import time
 import warnings
 warnings.filterwarnings('ignore')
 
-st.write("## Personal Fitness Tracker")
+st.write("## Personal Fitness Tracker")   # Title
 #st.image("", use_column_width=True)
 st.write("In this WebApp you will be able to observe your predicted calories burned in your body. Pass your parameters such as `Age`, `Gender`, `BMI`, etc., into this WebApp and then you will see the predicted value of kilocalories burned.")
 
 st.sidebar.header("User Input Parameters: ")
 
 def user_input_features():
-    age = st.sidebar.slider("Age: ", 10, 100, 30)
+    age = st.sidebar.slider("Age: ", 10, 100, 30)  #Age → Range: 10 to 100, Default: 30
     bmi = st.sidebar.slider("BMI: ", 15, 40, 20)
     duration = st.sidebar.slider("Duration (min): ", 0, 35, 15)
     heart_rate = st.sidebar.slider("Heart Rate: ", 60, 130, 80)
