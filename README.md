@@ -28,8 +28,7 @@ streamlit run app.py
 ## Deployment 🌐
 
 The Fitness Tracker App is deployed and accessible online:  
-[🚀 Launch the App](https://personalfitnesstracker.streamlit.app/)
-
+[🚀 Launch the App(https://your-username-your-app-name.streamlit.app
 Just click the link and start predicting your calorie burn instantly!
 
 
